@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="p">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>Point</class>
+        <properties>
+            <!--property name="eclipselink.jdbc.url" value="jdbc:oracle:thin:@pg:1521:XE"/>
+            <property name="eclipselink.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+            <property name="eclipselink.jdbc.user" value="s282518"/>
+            <property name="eclipselink.jdbc.password" value="pbk389"/>
+            <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
+            <property name="eclipselink.create-ddl-jdbc-file-name" value="createDDL_ddlGeneration.jdbc"/>
+            <property name="eclipselink.drop-ddl-jdbc-file-name" value="dropDDL_ddlGeneration.jdbc"/>
+            <property name="eclipselink.ddl-generation.output-mode" value="both"/-->
+
+            <!--property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/web3" />
+            <property name="javax.persistence.jdbc.user" value="postgres" />
+            <property name="javax.persistence.jdbc.password" value="Baraban5!" /-->
+
+            <property name="eclipselink.jdbc.driver" value="org.postgresql.Driver" />
+            <property name="eclipselink.jdbc.url" value="jdbc:postgresql://localhost:5432/web3" />
+            <property name="eclipselink.jdbc.user" value="postgres" />
+            <property name="eclipselink.jdbc.password" value="Baraban5!" />
+        </properties>
+    </persistence-unit>
+</persistence>
